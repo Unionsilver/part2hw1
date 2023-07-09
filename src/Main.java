@@ -12,7 +12,7 @@ public class Main {
         Puffendui[] puffenduis = {
                 new Puffendui("Захария  ", "Смит", 29, 60, 49, 74, 38),
                 new Puffendui("Седрик  ", "Диггори", 49, 67, 66, 28, 94),
-                new Puffendui("Джастин  ", "Финч-Флетчли", 97, 44, 66, 78, 33)
+                new Puffendui("Джастин  ", "Финч-Флетчли ", 97, 44, 66, 78, 33)
         };
         puffenduis[0].toCompareStudentPuffendui(puffenduis[1]);
 

@@ -3,16 +3,15 @@ public class Gryffindor extends Hogwarts {
     private int honor;
     private int bravery;
 
-    public void toCompareStudentGryffindor(Gryffindor student){
+    public void toCompareStudentGryffindor(Gryffindor student) {
         int sum1 = this.getNobility() + this.getHonor() + this.getBravery();
         int sum2 = student.getNobility() + student.getHonor() + student.getBravery();
         if (sum1 > sum2) {
-            System.out.println(this.getName() + "сильнее чем" + student.getName() );
+            System.out.println(this.getName() + "сильнее чем" + student.getName());
         } else if (sum1 < sum2) {
             System.out.println(student.getName() + "сильнее чем " + this.getName());
-        }
-        else{
-            System.out.println(this.getName() + " и " + student.getName() +"Равны между собой");
+        } else {
+            System.out.println(this.getName() + " и " + student.getName() + "Равны между собой");
         }
     }
 

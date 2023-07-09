@@ -5,17 +5,16 @@ public class Slytherin extends Hogwarts {
     private int resourcefulness;
     private int lustForPower;
 
-    public void toCompareStudentSlytherin(Slytherin student){
+    public void toCompareStudentSlytherin(Slytherin student) {
         int sum1 = this.getCunning() + this.getDetermination() + this.getAmbition() + this.getResourcefulness() + this.getLustForPower();
         int sum2 = student.getCunning() + student.getDetermination() + student.getAmbition() + student.getResourcefulness() + student.getLustForPower();
         if (sum1 > sum2) {
-            System.out.println(this.getName() + "сильнее чем" + student.getName() );
+            System.out.println(this.getName() + "сильнее чем" + student.getName());
 
         } else if (sum1 < sum2) {
             System.out.println(student.getName() + "сильнее чем " + this.getName());
-        }
-        else{
-            System.out.println(this.getName() + " и " + student.getName() +"Равны между собой");
+        } else {
+            System.out.println(this.getName() + " и " + student.getName() + "Равны между собой");
         }
     }
 

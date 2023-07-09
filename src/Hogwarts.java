@@ -14,10 +14,10 @@ public class Hogwarts {
         return thePowerOfMagic == hogwarts.thePowerOfMagic && transgressionDistance == hogwarts.transgressionDistance && Objects.equals(name, hogwarts.name) && Objects.equals(surname, hogwarts.surname);
     }
 
-    public  void compareGriffindorStudents(Gryffindor s2) {
+    public void compareGriffindorStudents(Gryffindor s2) {
         if (this.equals(s2)) {
-            System.out.println("Попытка сравнить одинакового студента");
-        }else {
+            System.out.println("Попытка сравнить одинакового студента ");
+        } else {
             System.out.println("одинаковая статистика");
         }
     }

@@ -16,7 +16,7 @@ public class PrintService {
         for (int i = 0; i < puffenduis.length; i++) {
             Puffendui puffendui = puffenduis[i];
             System.out.println("Имя " + puffendui.getName() + "; Фамилия " + puffendui.getSurname() +
-                    "; трудолюбивы  " + puffendui.getHardworking() + "; верны  " + puffendui.getLoyal() +
+                    "; трудолюбивы  " + puffendui.getHardworking() + "; верны   " + puffendui.getLoyal() +
                     "; честны  " + puffendui.getHonest());
         }
         System.out.println();

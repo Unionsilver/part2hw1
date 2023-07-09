@@ -2,17 +2,17 @@ public class Puffendui extends Hogwarts {
     private int hardworking;
     private int loyal;
     private int honest;
-    public void toCompareStudentPuffendui(Puffendui student){
+
+    public void toCompareStudentPuffendui(Puffendui student) {
         int sum1 = this.getHardworking() + this.getLoyal() + this.getHonest();
         int sum2 = student.getHardworking() + student.getLoyal() + student.getHonest();
         if (sum1 > sum2) {
-            System.out.println(this.getName() + "сильнее чем" + student.getName() );
+            System.out.println(this.getName() + "сильнее чем" + student.getName());
 
         } else if (sum1 < sum2) {
             System.out.println(student.getName() + "сильнее чем " + this.getName());
-        }
-        else{
-            System.out.println(this.getName() + " и " + student.getName() +"Равны между собой");
+        } else {
+            System.out.println(this.getName() + " и " + student.getName() + "Равны между собой");
         }
     }
 

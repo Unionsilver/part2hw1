@@ -3,17 +3,17 @@ public class Cogtevran extends Hogwarts {
     private int wise;
     private int witty;
     private int fullOfCreativity;
-    public void toCompareStudentCogtevran(Cogtevran student){
+
+    public void toCompareStudentCogtevran(Cogtevran student) {
         int sum1 = this.getSmart() + this.getWise() + this.getWitty() + this.getFullOfCreativity();
         int sum2 = student.getSmart() + student.getWise() + student.getWitty() + student.getFullOfCreativity();
         if (sum1 > sum2) {
-            System.out.println(this.getName() + "сильнее чем" + student.getName() );
+            System.out.println(this.getName() + "сильнее чем" + student.getName());
 
         } else if (sum1 < sum2) {
             System.out.println(student.getName() + "сильнее чем " + this.getName());
-        }
-        else{
-            System.out.println(this.getName() + " и " + student.getName() +"Равны между собой");
+        } else {
+            System.out.println(this.getName() + " и " + student.getName() + "Равны между собой");
         }
     }
 
